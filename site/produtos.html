@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="prod.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .nav {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+        }
+
+        .nav li {
+            display: inline;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        .nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .categoria {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .categoria div {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 30%;
+        }
+
+        .categoria img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .footer-links img {
+            width: 30px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Produtos</h1>
+            <ul class="nav">
+                <li><a href="Inicial.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobrenos.html">Quem somos?</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="categorias">
+            <h2>Categorias</h2>
+            <div class="categoria">
+                <div>
+                    <img src="fone.jpg" alt="Fones BT">
+                    <h3>Fones BT</h3>
+                </div>
+                <div>
+                    <img src="games.jpg" alt="Games">
+                    <h3>Games</h3>
+                </div>
+                <div>
+                    <img src="Pcgamer.jpg" alt="Pc Gamer">
+                    <h3>Pc Gamer</h3>
+                </div>
+            </div>
+        </section>
+
+    <footer>
+        <div>
+            <p>&copy; 2024 Hari Inc. Tecnology | Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="instagram-logo.png.svg" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="facebook-logo.png.svg" alt="Facebook">
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <img src="whatsapp-svgrepo-com.svg" alt="Whatsapp">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
